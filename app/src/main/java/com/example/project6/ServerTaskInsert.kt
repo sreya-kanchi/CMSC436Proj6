@@ -31,7 +31,6 @@ class ServerTaskInsert(
             }
 
             activity.runOnUiThread {
-                // go back to MainActivity; it will refresh in onResume()
                 activity.finish()
             }
         }.start()

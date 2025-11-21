@@ -27,8 +27,4 @@ class CandyButton(context: Context, private val candy: Candy) : AppCompatButton(
     fun getPrice(): Double {
         return candy.getPrice()
     }
-
-    fun getId(): Int {
-        return candy.getId()
-    }
 }
